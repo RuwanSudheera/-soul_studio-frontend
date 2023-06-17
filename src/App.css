@@ -6,11 +6,20 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   margin: 8px;
+  background-color: rgb(211, 181, 184);
+  color: rgb(248, 5, 195);
 }
 
 .product-card img {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 220px;
   object-fit: cover;
   margin-bottom: 8px;
+  border-radius: 10%;
+}
+
+.product-card-price {
+  color: rgb(4, 4, 77);
+  font-size: large;
+  align-items: right;
 }
